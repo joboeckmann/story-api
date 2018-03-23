@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:12:15:16 -0600] "GET /rest/user/token/token HTTP/1.1" 500 8829 http-bio-9090-exec-1 947
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:12:15:16 -0600] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9090-exec-2 3
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:12:16:44 -0600] "GET /rest/user/token/token HTTP/1.1" 500 8511 http-bio-9090-exec-1 763
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:12:19:03 -0600] "GET /rest/user/token/token HTTP/1.1" 500 8511 http-bio-9090-exec-1 400
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:12:19:08 -0600] "GET /rest/user/token/token HTTP/1.1" 500 8511 http-bio-9090-exec-2 20
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:12:23:42 -0600] "GET /rest/user/token/token HTTP/1.1" 200 28 http-bio-9090-exec-1 927
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:12:24:52 -0600] "GET /rest/user/token/token HTTP/1.1" 500 1039 http-bio-9090-exec-1 488
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:12:32:25 -0600] "GET /rest/user/token/token HTTP/1.1" 200 79 http-bio-9090-exec-1 409
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:13:22:33 -0600] "GET /rest/user?password=password&username=username HTTP/1.1" 500 7977 http-bio-9090-exec-1 836
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:13:26:29 -0600] "GET /rest/user?password=password&username=username HTTP/1.1" 500 7977 http-bio-9090-exec-1 577
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:13:26:39 -0600] "GET /rest/user?passwdford=passwfdgord&userdsdsname=username HTTP/1.1" 500 7977 http-bio-9090-exec-3 21
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:13:28:05 -0600] "GET /rest/user?password=passwfdgord&username=username HTTP/1.1" 500 7977 http-bio-9090-exec-1 823
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:13:38:28 -0600] "GET /rest/user?password=passwfdgord&username=username HTTP/1.1" 500 7977 http-bio-9090-exec-1 32941
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:13:39:18 -0600] "GET /rest/user?password=passwfdgord&username=username HTTP/1.1" 500 7977 http-bio-9090-exec-2 41901
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:13:40:47 -0600] "GET /rest/user?password=passwfdgord&username=username HTTP/1.1" 500 7977 http-bio-9090-exec-1 554
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:13:45:20 -0600] "GET /rest/user?password=passwfdgord&username=username HTTP/1.1" 200 - http-bio-9090-exec-1 585
+0:0:0:0:0:0:0:1 - - [04/Mar/2018:13:45:31 -0600] "GET /rest/user?password=password&username=username HTTP/1.1" 200 79 http-bio-9090-exec-3 43

@@ -1,0 +1,35 @@
+package services;
+
+import mappers.StoryMapper;
+import models.Genre;
+import models.Story;
+import org.apache.ibatis.session.SqlSession;
+import utils.MyBatisUtil;
+
+import java.util.List;
+
+public class StoryService  {
+
+    public List<Story> getStoriesByUser(String userId) {
+        SqlSession sqlSession = MyBatisUtil.getSqlSessionFactory().openSession();
+        try{
+            StoryMapper blogMapper = sqlSession.getMapper(StoryMapper.class);
+            return blogMapper.getStoriesByUser(userId);
+        }finally{
+            sqlSession.close();
+        }
+    }
+
+    public List<Genre> getGenres() {
+        SqlSession sqlSession = MyBatisUtil.getSqlSessionFactory().openSession();
+        try{
+            StoryMapper blogMapper = sqlSession.getMapper(StoryMapper.class);
+            return blogMapper.getGenres();
+        }finally{
+            sqlSession.close();
+        }
+    }
+
+
+
+}

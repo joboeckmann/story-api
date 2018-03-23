@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [10/Mar/2018:00:48:42 -0600] "GET /rest/user/token/token HTTP/1.1" 200 79 http-bio-9090-exec-7 4
+0:0:0:0:0:0:0:1 - - [10/Mar/2018:00:48:42 -0600] "GET /rest/user/token/token HTTP/1.1" 200 79 http-bio-9090-exec-7 11
