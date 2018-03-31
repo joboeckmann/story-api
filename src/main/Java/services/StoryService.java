@@ -30,6 +30,18 @@ public class StoryService  {
         }
     }
 
+    public int updateStory(String userId, String storyId, Story story) {
+        SqlSession sqlSession = MyBatisUtil.getSqlSessionFactory().openSession();
+        try{
+            StoryMapper blogMapper = sqlSession.getMapper(StoryMapper.class);
+            int row = blogMapper.updateStory(userId, storyId, story);
+            sqlSession.commit();
+            return row;
+        }finally{
+            sqlSession.close();
+        }
+    }
+
 
 
 }
